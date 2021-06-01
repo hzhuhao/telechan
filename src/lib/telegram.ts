@@ -21,7 +21,7 @@ function botUtils() {
 	bot.use(logger);
 
 	bot.start(ctx => {
-		return ctx.reply("This is a test bot.");
+		return ctx.reply("I’m Wookong news push bot.");
 	});
 
 	bot.command("about", about()).command("sendkey", sendkey()).on("text", greeting());
